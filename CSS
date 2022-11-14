@@ -1,1 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
 
+body{
+  background-color:black;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Menubox{
+  width: 235px;
+  height: 100%;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: varela-round, sans-serif;
+  font-size: 13px;
+  padding-top: 20px;
+  padding-left: 20px;
+  
+}
+
+.logotext{
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+  cursor: pointer;
+}
+
+ .Songsbox{
+  margin-right: 0%;
+  margin-left: 0px;
+  margin-top: 0%;
+  width: 84.52%;
+  height: 100%;
+  background: linear-gradient(#403d37, #121212);
+  font-family: varela-round, sans-serif;
+  
+  
+ 
+  
+}
+.Songsbox h1{
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+
+}
+.Songsbox .albums {
+ 
+ width: 1239px;
+ margin-left: 30px;
+ height: 229.6px;
+ display: block;
+}
+
+.Songsbox .albums1{
+  
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 47px;
+}
+
+.albums1 .firstalbum{
+  border: 1px solid white;
+  width: 397px;
+  height: 90px;
+  
+}
+
+.firstalbum h4{
+  color: white;
+  float: right;
+ 
+}
+
+.albums1 .secondalbum{
+  border: 1px solid white;
+  width: 397px;
+  height: 90px;
+}
+
+.albums1 .thirdalbum{
+  border: 1px solid white;
+  width: 397px;
+  height: 90px;
+}
+
+.Songsbox .albums2{
+  
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.albums2 .fourthalbum{
+  border: 1px solid white;
+  width: 397px;
+  height: 90px;
+  
+}
+
+.albums2 .fifthalbum{
+  border: 1px solid white;
+  width: 397px;
+  height: 90px;
+}
+
+.albums2 .sixthalbum{
+  border: 1px solid white;
+  width: 397px;
+  height: 90px;
+}
+
+.Songsbox .covertext{
+ 
+ width: 500px;
+ height: 10%;
+ margin-left: -1px;
+ padding-top: 1%;
+ 
+}
+
+
+.Songsbox .coverpages{
+ 
+ width: 1239px;
+ height: 325px;
+ margin-left: 30px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.coverpages .cover1{
+  border: 1px solid white;
+  height: 264.5px;
+  width: 186.5px;
+  
+}
+
+.coverpages .cover2{
+  border: 1px solid white;
+  height: 264.5px;
+  width: 186.5px;
+  
+}
+
+.coverpages .cover3{
+  border: 1px solid white;
+  height: 264.5px;
+  width: 186.5px;
+  
+}
+
+.coverpages .cover4{
+  border: 1px solid white;
+  height: 264.5px;
+  width: 186.5px;
+  
+}
+
+.coverpages .cover5{
+  border: 1px solid white;
+  height: 264.5px;
+  width: 186.5px;
+  
+}
+
+.coverpages .cover6{
+  border: 1px solid white;
+  height: 264.5px;
+  width: 186.5px;
+  
+}
+
+ 
+
+img{
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.bar1{
+  display: flex;
+  color: #aeaeae;
+  font-family: varela-round, sans-serif;
+  font-size: 15px;
+  flex-direction: column;
+  padding-top: 80px;
+  padding: 5px;
+  gap: 30px;
+  cursor: pointer;
+  
+}
+
+
+.bar2{
+  display: flex;
+  color: #aeaeae;
+  font-family: varela-round, sans-serif;
+  font-size: 15px;
+  flex-direction: column;
+  padding: 50px 0 5px 5px;
+  gap: 30px;
+  cursor: pointer;
+  
+}
+.bar1 h4:hover, .bar2 h4:hover{
+  color: white;
+}
+
+.seperator{
+  border: none;
+  border-bottom: 3px solid #191919;
+  margin: 15px 0;
+  
+}
+
+i{
+  cursor: pointer;
+}
+
+.bottom{
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background: #181818;
+  color: white;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.song-info{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  transform: translateX(0);
+  width: 235px;
+  padding: 10px;
+  padding-right: 0px;
+}
+
+.icons2{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.play{
+  width: 55px;
+  height: 55px; 
+
+}
+
+.songs{
+  padding: 0px 10px;
+  font-size: 20px;
+
+}
+
+.icons2{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons2 .fa-heart{
+  padding: 10px;
+  padding-left: 20px;
+  
+} 
+
+.fa-window-maximize{
+  padding: 10px;
+  padding-right: 0px;
+}
+
+.player{
+  height: 10 px;
+  width: 28%;
+  border: 1px solid white;
+}
+
+.vol{
+  height: 10px;
+  width: 18%;
+  border: 1px solid white;
+}
+.bar1 h4:first-child{
+  color: white;
+}
