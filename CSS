@@ -71,6 +71,10 @@ header{
  display: block;
 }
 
+.albums img{
+  border-radius: 5px;
+}
+
 .Songsbox .albums1{
   
   width: 100%;
@@ -80,29 +84,52 @@ header{
   margin-bottom: 47px;
 }
 
+
 .albums1 .firstalbum{
-  border: 1px solid white;
   width: 397px;
-  height: 90px;
-  
+  height: 85px;
+  background-color: #403f3c;
+  border-radius: 5px;
 }
+
 
 .firstalbum h4{
   color: white;
+  font-size: medium;
   float: right;
+  padding-right: 185px;
+  padding-top: 9%;
  
 }
 
 .albums1 .secondalbum{
-  border: 1px solid white;
   width: 397px;
-  height: 90px;
+  height: 85px;
+  background-color: #403f3c;
+}
+
+.secondalbum h4{
+  color: white;
+  font-size: medium;
+  float: right;
+  padding-right: 210px;
+  padding-top: 9%;
+ 
 }
 
 .albums1 .thirdalbum{
-  border: 1px solid white;
   width: 397px;
-  height: 90px;
+  height: 85px;
+  background-color: #403f3c;
+}
+
+.thirdalbum h4{
+  color: white;
+  font-size: medium;
+  float: right;
+  padding-right: 210px;
+  padding-top: 9%;
+ 
 }
 
 .Songsbox .albums2{
@@ -115,22 +142,48 @@ header{
 }
 
 .albums2 .fourthalbum{
-  border: 1px solid white;
   width: 397px;
-  height: 90px;
+  height: 85px;
+  background-color: #403f3c;
   
 }
 
-.albums2 .fifthalbum{
-  border: 1px solid white;
-  width: 397px;
-  height: 90px;
+.fourthalbum h4{
+  color: white;
+  font-size: medium;
+  float: right;
+  padding-right: 200px;
+  padding-top: 9%;
+ 
 }
 
+.albums2 .fifthalbum{
+  width: 397px;
+  height: 85px;
+  background-color: #403f3c;
+}
+
+.fifthalbum h4{
+  color: white;
+  font-size: medium;
+  float: right;
+  padding-right: 165px;
+  padding-top: 9%;
+ 
+}
 .albums2 .sixthalbum{
-  border: 1px solid white;
   width: 397px;
   height: 90px;
+  background-color: #403f3c;
+}
+
+.sixthalbum h4{
+  color: white;
+  font-size: medium;
+  float: right;
+  padding-right: 245px;
+  padding-top: 9%;
+ 
 }
 
 .Songsbox .covertext{
