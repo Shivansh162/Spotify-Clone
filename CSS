@@ -72,7 +72,7 @@ header{
 }
 
 .albums img{
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .Songsbox .albums1{
@@ -89,7 +89,7 @@ header{
   width: 397px;
   height: 85px;
   background-color: #403f3c;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 
@@ -106,6 +106,7 @@ header{
   width: 397px;
   height: 85px;
   background-color: #403f3c;
+  border-radius: 10px;
 }
 
 .secondalbum h4{
@@ -121,6 +122,7 @@ header{
   width: 397px;
   height: 85px;
   background-color: #403f3c;
+  border-radius: 10px;
 }
 
 .thirdalbum h4{
@@ -145,7 +147,7 @@ header{
   width: 397px;
   height: 85px;
   background-color: #403f3c;
-  
+  border-radius: 10px;
 }
 
 .fourthalbum h4{
@@ -161,6 +163,7 @@ header{
   width: 397px;
   height: 85px;
   background-color: #403f3c;
+  border-radius: 10px;
 }
 
 .fifthalbum h4{
@@ -175,6 +178,7 @@ header{
   width: 397px;
   height: 90px;
   background-color: #403f3c;
+  border-radius: 10px;
 }
 
 .sixthalbum h4{
@@ -206,45 +210,163 @@ header{
 }
 
 .coverpages .cover1{
-  border: 1px solid white;
+  border: 1px solid #181818;
   height: 264.5px;
   width: 186.5px;
+  background-color: #181818;
+  border-radius: 5%;
+}
+
+.cover1 img{
+  border-radius: 10%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-left: 9px;
+  text-align: center;
   
 }
 
+.cover1 h4{
+  color: white;
+  font-size: medium;
+  padding-left: 20px;
+}
+
+.cover2 img{
+  border-radius: 10%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-left: 9px;
+  text-align: center;
+}
+
+.cover2 h4{
+  color: white;
+  font-size: medium;
+  padding-left: 55px;
+  padding-top: 5px;
+}
+
+
 .coverpages .cover2{
-  border: 1px solid white;
+  border: 1px solid #181818;
   height: 264.5px;
   width: 186.5px;
-  
+  background-color: #181818;
+  border-radius: 5%;
+}
+
+
+.cover3 img{
+  border-radius: 10%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-left: 9px;
+  text-align: center;
+}
+
+.cover3 h4{
+  color: white;
+  font-size: medium;
+  padding-left: 20px;
+  padding-top: 5px;
 }
 
 .coverpages .cover3{
-  border: 1px solid white;
+  border: 1px solid #181818;
   height: 264.5px;
   width: 186.5px;
-  
+  background-color: #181818;
+  border-radius: 5%;
+}
+
+
+.cover4 img{
+  border-radius: 10%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-left: 9px;
+  text-align: center;
+}
+
+.cover4 h4{
+  color: white;
+  font-size: medium;
+  padding-left: 20px;
+  padding-top: 5px;
 }
 
 .coverpages .cover4{
-  border: 1px solid white;
+  border: 1px solid #181818;
   height: 264.5px;
   width: 186.5px;
-  
+  background-color: #181818;
+  border-radius: 5%;
+}
+
+.cover5 img{
+  border-radius: 10%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-left: 9px;
+  text-align: center;
+}
+
+.cover5 h4{
+  color: white;
+  font-size: medium;
+  padding-left: 20px;
+  padding-top: 5px;
 }
 
 .coverpages .cover5{
-  border: 1px solid white;
+  border: 1px solid #181818;
   height: 264.5px;
   width: 186.5px;
-  
+  background-color: #181818;
+  border-radius: 5%;
+}
+
+
+.cover6 img{
+  border-radius: 10%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-left: 9px;
+  text-align: center;
+}
+
+.cover6 h4{
+  color: white;
+  font-size: medium;
+  padding-left: 55px;
+  padding-top: 10px;
 }
 
 .coverpages .cover6{
-  border: 1px solid white;
+  border: 1px solid #181818;
   height: 264.5px;
   width: 186.5px;
-  
+  background-color: #181818;
+  border-radius: 5%;
 }
 
  
@@ -365,5 +487,4 @@ i{
 }
 .bar1 h4:first-child{
   color: white;
-  
 }
